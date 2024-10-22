@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Profile;
 import com.educandoweb.course.entities.enums.OrderStatus;
 
 @Configuration
-@Profile("test")
+@Profile("prod")
 public class TesteConfig implements CommandLineRunner {
 	
 	@Autowired
